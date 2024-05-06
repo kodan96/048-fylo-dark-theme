@@ -85,7 +85,7 @@ header {
         transform: translateY(0%);
     }
 }
-
+*/
 .preload {
     position: absolute;
     inset: 0;
@@ -96,6 +96,7 @@ header {
     place-items: center;
     overflow: hidden;
     overscroll-behavior: contain;
+    display: none;
     
 
     img {
@@ -108,7 +109,7 @@ header {
         animation-iteration-count: infinite;
     }
 }
-*/
+
 main {
     padding-inline: 2rem;
 }
