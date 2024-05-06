@@ -54,6 +54,7 @@ $(document).ready(() => {
                 start: 'top 80%', 
                 end: 'top 50%',
                 scrub: true,
+                markers: false
                 
             }
         });
@@ -70,7 +71,7 @@ $(document).ready(() => {
                 trigger: section,
                 start: 'top 90%', 
                 end: 'top 60%',
-                
+                markers: false,
                 scrub: true,
                 
             }
@@ -88,7 +89,7 @@ $(document).ready(() => {
             trigger: productiveImg,
             start: 'top 90%', 
             end: 'top 60%',
-            
+            markers: false,
             scrub: true,
             
         }
@@ -121,7 +122,7 @@ $(document).ready(() => {
                 start: 'top 80%', 
                 end: 'top 50%', 
                 scrub: true,
-               
+                markers: false
             },
             opacity: 0,
             xPercent: -100,
@@ -142,7 +143,7 @@ $(document).ready(() => {
             start: 'top 80%', 
             end: 'top 50%', 
             scrub: true,
-           
+            markers: false
         }
     })
 
