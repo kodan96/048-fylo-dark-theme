@@ -54,7 +54,7 @@ $(document).ready(() => {
                 start: 'top 80%', 
                 end: 'top 50%',
                 scrub: true,
-                markers: true, 
+                
             }
         });
     });
@@ -72,7 +72,7 @@ $(document).ready(() => {
                 end: 'top 60%',
                 
                 scrub: true,
-                markers: true, 
+                
             }
         })
     })
@@ -90,7 +90,7 @@ $(document).ready(() => {
             end: 'top 60%',
             
             scrub: true,
-            markers: true
+            
         }
     });
 
@@ -103,7 +103,7 @@ $(document).ready(() => {
                 start: 'top 80%', 
                 end: 'top 50%', 
                 scrub: true,
-                markers: true,
+              
             },
             opacity: 0,
             yPercent: 100,
@@ -121,7 +121,7 @@ $(document).ready(() => {
                 start: 'top 80%', 
                 end: 'top 50%', 
                 scrub: true,
-                markers: true, 
+               
             },
             opacity: 0,
             xPercent: -100,
@@ -142,7 +142,7 @@ $(document).ready(() => {
             start: 'top 80%', 
             end: 'top 50%', 
             scrub: true,
-            markers: true, 
+           
         }
     })
 
