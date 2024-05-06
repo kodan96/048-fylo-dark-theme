@@ -76,7 +76,7 @@ header {
     animation-fill-mode: backwards;
     animation-delay: 5s;
 }
-/*
+
 @keyframes slideDown {
     0% {
         transform: translateY(-100%);
@@ -85,7 +85,7 @@ header {
         transform: translateY(0%);
     }
 }
-*/
+
 .preload {
     position: absolute;
     inset: 0;
@@ -96,7 +96,6 @@ header {
     place-items: center;
     overflow: hidden;
     overscroll-behavior: contain;
-    display: none;
     
 
     img {
